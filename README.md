@@ -1,4 +1,4 @@
-# MAMBA <img src=docs/images/MAMBA_logo.png width="250" align="right"> 
+# TriPath <img src=docs/images/MAMBA_logo.png width="250" align="right"> 
 
 ### Weakly Supervised AI for Efficient Analysis of 3D Pathology Samples
 
