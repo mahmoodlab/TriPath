@@ -1,0 +1,42 @@
+exp: 'MIL_simulation'
+feats_path: FEATS_PATH
+result_path: RESULT_PATH
+clinical_path: CLINICAL_PATH
+task: 'clf'
+numOfclasses: 3
+mode: '3D'
+label: 'label'
+label_days: 'BCR_days'
+warm_start: False
+loss: 'cross'
+
+epochs: 100
+epochs_finetune: 0
+lr: 0.0005
+lr_finetune: 0.0001
+scheduler: 'cosine'
+weight_decay: 0.00001
+grad_accum: 1
+opt: adam
+dropout: 0.25
+seed_data: 10
+seed_exp: 10
+stop_patience: 100
+context_network: 'GRU'
+
+
+# Data properties
+prop_train: 0.7
+sample_prop: 0.25
+numOfaug: 5 # Number of augmentations performed for data
+split_mode: 'kf' # 'kf' or 'loo'
+split_fold: 5
+
+encoder: 'resnet34' # Feature extractor encoder 'resnet34', 'resnet50', 'MAE', or 'SwinUNETR'
+
+decoder: 'attn' # 'attn', 'uniform'
+decoder_enc: True # Lightweight encoder within decoder
+decoder_enc_dim: 64  # Only valid if decoder_enc is True
+decoder_enc_num: 1
+attn_latent_dim: 16
+gated: True

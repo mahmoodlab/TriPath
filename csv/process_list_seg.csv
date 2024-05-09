@@ -1,0 +1,2 @@
+"slide_id","resolution","process","status","seg_level","sthresh","mthresh","close","use_otsu","a_t","a_h","max_n_holes","vis_level","line_thickness","use_padding","contour_fn","black_thresh","clip_min","clip_max","bag_size"
+"c001-A",0.94,0,"proccessed",0,3,19,4,FALSE,0.2,1,8,0,8,TRUE,"four_pt_easy",0,100,10000,0

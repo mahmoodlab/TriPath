@@ -1,0 +1,13 @@
+clinical_path: '/3dp/data/phantoms/phantom_subtle/subtle_clinical.csv'
+
+patch_mode: '3D'
+batch_size: 40
+
+encoder: 'resnet50_3d' # Feature extractor encoder 'resnet18', 'resnet34', 'resnet50', or 'SwinUNETR'
+data_mode: 'CT'
+invert: True
+
+pretrained:
+  load_weights: True # False, random init
+  pretrained_name: 'imagenet_low_25k_top_1pct_mean_HE'
+  pretrained_path: 'imagenet'

@@ -1,0 +1,2 @@
+"patient_id","slide_id","process","seg_level","sthresh","mthresh","a_t","a_h","max_n_holes","vis_level","black_thresh","clip_min","clip_max","false_color","label"
+"c001","A, B, C, D",0,0,3,19,1,1,8,0,0,100,7725,TRUE,"No"
