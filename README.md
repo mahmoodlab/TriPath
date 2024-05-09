@@ -4,7 +4,7 @@
 Andrew H. Song, Mane Williams, Drew F.K. Williamson, Sarah S.L. Chow, Guillaume Jaume, ..., Jonathan T.C. Liu*, Faisal Mahmood*  
 *Cell*
 
-[[Article]](https://doi.org/10.1016/j.cell.2024.03.035) | [[Interactive Demo]](https://tripath-demo.github.io/demo/) | [[Video]]() | [[Cite]](#cite)
+[[Article]](https://www.cell.com/cell/fulltext/S0092-8674(24)00351-9) | [[Interactive Demo]](https://tripath-demo.github.io/demo/) | [[Video]](https://www.youtube.com/watch?v=JQh5FFmc6kY) | [[Cite]](#cite)
 
 **TriPath** is a deep-learning-based computational pipeline for volumetric image analysis that can perform weakly-supervised patient prognostication based on 3D morphological features without the need for manual annotations by pathologists.
 With the rapid growth and adoption of 3D spatial biology and pathology techniques by researchers and clinicians, MAMBA provides a general and efficient framework for 3D weakly supervised learning for clinical decision support and to reveal novel 3D morphological biomarkers and insights for prognosis and therapeutic response.  
