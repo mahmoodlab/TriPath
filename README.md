@@ -61,8 +61,8 @@ Some flags include:
     * **single** (default): patch within single 3D slice at the depth with largest tissue contour area (indicated by best_slice_idx)
     * **all** (recommended): patch across all 3D slices
 * `--thresh_mode`
-  * **fixed** (default): Uses csv-supplied clip_min, clip_max to threshold the images for all subjects. For CT, use this.
-  * **global** (recommended): Automatically identifies adaptive upper threshold for each subject (Top 1%). Lower threshold is set to csv-supplied clip_min. This mode will take longer than fixed mode.
+  * **fixed** (default): Uses csv-supplied clip_min, clip_max to threshold the images for all subjects. For microCT, use this.
+  * **global** (recommended): Automatically identifies adaptive upper threshold for each subject (Top 1%). Lower threshold is set to csv-supplied clip_min. This mode will take longer than fixed mode. Recommended for 3D datasets for which upper threshold is not well-defined (e.g., OTLS dataset)
 * `--process_list`: This csv contains relevant segmentation/patching parameters
   * **process**: 1 if the slide needs to be processed, 0 otherwise.
   * **sthresh**: tissue segmentation threshold for binarized volume (0 ~ 255) 
