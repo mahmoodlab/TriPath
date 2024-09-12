@@ -1,2 +1,51 @@
-"patient_id","slide_id","BCR","BCR_days"
-"c001","A, B, C, D","Yes",100
+patient_id,slide_id,BCR,BCR_days
+c001,"A, B, C, D",No,
+c002,"B, D, E ,F",Yes,669
+c003,"A, B, F",Yes,
+c004,"A, B, D, E",Yes,
+c005,"B, D, F",No,
+c006,C,Yes,
+c007,"A, B, D",No,
+c008,F,No,
+c009,A,Yes,
+c010,C,Yes,
+c011,"B, D",Yes,1491
+c012,"B, C",No,
+c013,D,No,
+c014,"B, C, D",No,
+c015,"A, C, E",No,1949
+c016,"B, C",Yes,
+c017,"B, D",No,
+c018,B,No,
+c019,"A, B",Yes,1553
+c020,B,No,
+c021,"B, C",No,
+c022,"A, B, C, D",Yes,182
+c023,A,No,
+c024,B,Yes,214
+c025,"C, F",No,
+c026,B,No,
+c027,"D, E",No,
+c028,A,Yes,1065
+c029,B,No,
+c030,C,No,
+c031,"B, D, E, F",No,
+c032,C,Yes,
+c033,"C, E",No,
+c034,"B, D, F",Yes,457
+c035,"A, B, C, F",Yes,
+c036,"D, F",No,
+c037,"B, C, D",Yes,1216
+c038,"D, E, F",Yes,182
+c039,"C, D, E, F",Yes,912
+c040,A,Yes,
+c041,"D,E",Yes,
+c042,"D, E",Yes,
+c043,"A, B, F",Yes,
+c044,"C, D",Yes,
+c045,D,Yes,1096
+c046,"A, B, E, F",No,
+c047,"C, E",Yes,
+c048,"A, B, C, D, F",No,
+c049,"A, C, E",No,
+c050,"A, B, C, E",No,

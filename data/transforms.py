@@ -143,7 +143,7 @@ class Normalize(object):
             self.mean = (0.485, 0.456, 0.406)
             self.std = (0.229, 0.224, 0.225)
         else:
-            raise NotImplementedError("Not implemented for normalization {}".format(mode))
+            raise NotImplementedError("Not implemented for normalization {}. If you are using OTLS, please use HE mode!".format(mode))
 
     def __call__(self, img):
         for channel in range(img.shape[0]):
