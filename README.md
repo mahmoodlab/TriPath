@@ -32,6 +32,7 @@ With the rapid growth and adoption of 3D spatial biology and pathology technique
 © This code and corresponding models are made available for non-commercial academic purposes and is licenced under [the Creative Commons Attribution Non Commercial No Derivatives 4.0 International license](https://creativecommons.org/licenses/by-nc-nd/4.0/). Commercial entities may contact us or the Mass General Brigham Innovations office.
 
 ## Updates
+**(01/24/25)** Preprocessing tutorial for 3D OTLS dataset, [PCa_Bx_3Dpathology](https://www.cancerimagingarchive.net/collection/pca_bx_3dpathology/), can be found in [here](./notebooks/OTLS_preprocessing.ipynb).\
 **(05/09/24)** The TriPath article is now published in _**Cell**_ ! The codebase will be continually updated.\
 **(07/27/23)** The github is now live.
 
